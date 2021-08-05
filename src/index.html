@@ -9,6 +9,7 @@
 </head>
 <body>
     <nav class="navbar">
+    <div class="container navbar__container">
         <h1 class="logo-studion">
             Studi<span class="copy--primary">on</span>
             <span class="logo-studion__subtitle">Eventos</span>
@@ -40,7 +41,8 @@
                 </a>
             </li>
         </ul>
-    </nav>
+    </div>
+</nav>
 
     <header>
         <div id="slider">
@@ -62,21 +64,27 @@
     </header>
 
     <main>
-        <section>
-            <ul>
-                <li><h3>+ de 500 </h3>eventos realizados</li>
-                <li><h3>+ de 1.000.000 </h3> de ingressos vendidos</li>
-                <li><h3>+ de 300 </h3>empresas atendidas</li>
+        <section id="counter">
+            <ul class=" container counter__container">
+                <li><h3>+ de 500
+                    <small>eventos realizados</small>
+                </h3></li>
+                <li><h3>+ de 1.000.000 
+                    <small>de ingressos vendidos</small>
+                </h3> </li>
+                <li><h3>+ de 300 
+                    <small>empresas atendidas</small>
+                </h3></li>
             </ul>
         </section>
 
-        <section>
-            <div>
-                <img src="./images/institutional.jpg" alt="institutional">
+        <section class=" container institutional">
+            <img class="institutional__image" src="./images/institutional.jpg" alt="Studion institutional">
+            <div class="institutional__copy">
                 <h6>Fazemos o seu evento acontecer</h6>
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button>Saiba Mais</button>
+                <button class="btn btn--institutional">Saiba Mais</button>
             </div>
         </section>
 
