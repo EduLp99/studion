@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css');
 
 * {
   box-sizing: border-box;
@@ -99,7 +101,7 @@ ul {
 
 .slide {
   position: relative;
-  height: calc(100vh - 7.75rem);
+  height: calc(100vh - 9rem);
 }
 
 .slide__background-image {
@@ -218,3 +220,51 @@ ul {
   background: unset;
 }
 
+.quote {
+  background-image: url(./images/parallax.jpg);
+  min-height: 80vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  min-height: 80vh;
+}
+
+.quote__copy {
+  background-color: #fff;
+  padding: 4.5rem 3.5rem;
+}
+
+.quote__copy h6 {
+  font-weight: 400;
+  font-size: .9675rem;
+  letter-spacing: .1875rem;
+  line-height: 1.4375rem;
+  width: 53ch;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.quote__copy h2 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: -.1875rem;
+  line-height: 5rem;
+  margin: 1.875rem 0;
+}
+
+.quote__copy h2 span {
+  display: block;
+}
+
+.btn--quote {
+  color: var(--color-copy);
+  border-color: var(--color-copy);
+  background: unset;
+}
